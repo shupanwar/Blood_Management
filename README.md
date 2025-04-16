@@ -48,44 +48,69 @@ The **Blood Bank Management System** is a Django-based web application designed 
     git clone https://github.com/your-username/blood-bank.git
    cd blood-bank
 2. **Create a Virtual Environment**
+   
    python -m venv env
+   
    source env/bin/activate   # Mac/Linux
+   
    env\Scripts\activate      # Windows
    
 3. **Install Requirements**
+   
     pip install -r requirements.txt
    
 4. **Run Migrations**
+   
     python manage.py migrate
 
 5. **Create Superuser**
+   
     python manage.py createsuperuser
 
 6. **Start Development Server**
+   
     python manage.py runserver
    
 7. **Access the Application**
+   
     Main site: http://127.0.0.1:8000/
+   
     Admin panel: http://127.0.0.1:8000/admin/
 
+
 Folder Structure
+   
    blood-bank/
+   
    │
+   
    ├── bloodbank/         # Main project settings
+   
    ├── core/              # Your app (models, views, templates)
+   
    ├── templates/         # HTML templates
+   
    ├── static/            # Static files (CSS, JS, images)
+   
    ├── media/             # Uploaded media (if any)
+   
    ├── db.sqlite3         # SQLite DB
+   
    ├── requirements.txt   # Python dependencies
+   
    ├── .gitignore
+   
    ├── README.md
 
+
 License
+
    This project is licensed under the MIT License — see the LICENSE file for details.
 
 Author
+
    Shubham Parmar
+   
    Full-Stack Developer
    
 
